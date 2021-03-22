@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot that uses twilio ",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server/server.js"
+  },
+  "author": "André Oliveira Cunha",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.0.0",
+    "express": "^4.16.3",
+    "googleapis": "^42.0.0",
+    "request": "^2.88.2",
+    "twilio": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
